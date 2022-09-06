@@ -1,0 +1,37 @@
+[0.671s] Invoking command in '/home/student/Desktop/ros2_ws/src/my_package': PYTHONPATH=/home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/student/Desktop/ros2_ws/build/my_package/build install --prefix /home/student/Desktop/ros2_ws/install/my_package --record /home/student/Desktop/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[0.863s] running egg_info
+[0.863s] creating ../../build/my_package/my_package.egg-info
+[0.863s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.864s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.865s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.968s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.969s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.969s] creating /home/student/Desktop/ros2_ws/build/my_package/build
+[0.969s] creating /home/student/Desktop/ros2_ws/build/my_package/build/lib
+[0.969s] creating /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package
+[0.970s] copying my_package/my_node.py -> /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package
+[0.970s] copying my_package/__init__.py -> /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package
+[0.970s] running install
+[0.970s] running install_lib
+[0.971s] creating /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.971s] copying /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.971s] copying /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.972s] byte-compiling /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc
+[0.973s] byte-compiling /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[0.973s] running install_data
+[0.973s] creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index
+[0.973s] creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index
+[0.973s] creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.973s] copying resource/my_package -> /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.973s] copying package.xml -> /home/student/Desktop/ros2_ws/install/my_package/share/my_package
+[0.973s] running install_egg_info
+[0.974s] Copying ../../build/my_package/my_package.egg-info to /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[0.975s] running install_scripts
+[0.987s] Installing my_node script to /home/student/Desktop/ros2_ws/install/my_package/lib/my_package
+[0.988s] writing list of installed files to '/home/student/Desktop/ros2_ws/build/my_package/install.log'
+[1.004s] Invoked command in '/home/student/Desktop/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/student/Desktop/ros2_ws/build/my_package/build install --prefix /home/student/Desktop/ros2_ws/install/my_package --record /home/student/Desktop/ros2_ws/build/my_package/install.log --single-version-externally-managed

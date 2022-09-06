@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000339] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099416] (-) TimerEvent: {}
+[0.199780] (-) TimerEvent: {}
+[0.300083] (-) TimerEvent: {}
+[0.400387] (-) TimerEvent: {}
+[0.500605] (-) TimerEvent: {}
+[0.600824] (-) TimerEvent: {}
+[0.669961] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/student/Desktop/ros2_ws/build/my_package/build', 'install', '--prefix', '/home/student/Desktop/ros2_ws/install/my_package', '--record', '/home/student/Desktop/ros2_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/student/Desktop/ros2_ws/src/my_package', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'student', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '16803', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/student', 'OLDPWD': '/home/student/Desktop/ros2_ws/src', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'CINNAMON_VERSION': '5.2.7', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/500/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'student', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '1', 'XDG_SESSION_ID': 'c10', 'GAZEBO_MODEL_PATH': ':/opt/ros/foxy/share/turtlebot3_gazebo/models/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/pintos', 'SESSION_MANAGER': 'local/l220417:@/tmp/.ICE-unix/16707,unix/l220417:/tmp/.ICE-unix/16707', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e2eb7c7f_c2e7_4479_b62c_e0e654bd92e3', 'XDG_RUNTIME_DIR': '/run/user/500', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/student/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.86', 'SSH_AUTH_SOCK': '/tmp/ssh-sC4dNnyhc1Af/agent.16707', 'ROS_DOMAIN_ID': '2', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/student', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/500/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'XDG_VTNR': '7', 'PWD': '/home/student/Desktop/ros2_ws/build/my_package', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/student/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.700951] (-) TimerEvent: {}
+[0.801229] (-) TimerEvent: {}
+[0.862754] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.863092] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[0.863260] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.863455] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.863614] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.863764] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.863824] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.865014] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.901341] (-) TimerEvent: {}
+[0.968232] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.969030] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.969241] (my_package) StdoutLine: {'line': b'running build\n'}
+[0.969555] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[0.969638] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/build/my_package/build\n'}
+[0.969727] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/build/my_package/build/lib\n'}
+[0.969780] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.969831] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.969881] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package\n'}
+[0.969930] (my_package) StdoutLine: {'line': b'running install\n'}
+[0.970447] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.971319] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[0.971498] (my_package) StdoutLine: {'line': b'copying /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[0.971559] (my_package) StdoutLine: {'line': b'copying /home/student/Desktop/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[0.971874] (my_package) StdoutLine: {'line': b'byte-compiling /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc\n'}
+[0.972748] (my_package) StdoutLine: {'line': b'byte-compiling /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc\n'}
+[0.972933] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[0.973258] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index\n'}
+[0.973525] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index\n'}
+[0.973650] (my_package) StdoutLine: {'line': b'creating /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.973709] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/student/Desktop/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[0.973762] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/student/Desktop/ros2_ws/install/my_package/share/my_package\n'}
+[0.973812] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.974226] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/student/Desktop/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[0.974885] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.987639] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/student/Desktop/ros2_ws/install/my_package/lib/my_package\n'}
+[0.987859] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/student/Desktop/ros2_ws/build/my_package/install.log'\n"}
+[1.001461] (-) TimerEvent: {}
+[1.003721] (my_package) CommandEnded: {'returncode': 0}
+[1.017378] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.017972] (-) EventReactorShutdown: {}
